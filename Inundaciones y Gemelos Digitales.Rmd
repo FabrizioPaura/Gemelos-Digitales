@@ -1,0 +1,153 @@
+---
+title: Inundaciones y Gemelos Digitales
+authors:
+  - name: Fabrizio Paura
+    department: Ingeniería Industrial
+    affiliation: Uncuyo Facultad de Ingeniería
+    location: Mendoza Argentina
+    email: fabri.paura@gmail.com
+  - name: Alesio Negri
+    department: Ingeniería Industrial
+    affiliation: Uncuyo Facultad de Ingeniería
+    location: Mendoza Argentina
+    email: alesgamernegri@gmail.com
+  - name: Franco Orlandi
+    department: Ingeniería Industrial
+    affiliation: Uncuyo Facultad de Ingeniería
+    location: Mendoza Argentina
+    email: francodanielorlandi@gmail.com
+  
+abstract: |
+ En este trabajo se presentan las causas y las consecuencias de las inundaciones y los problemas que esto conlleva. Además, también se explica dos casos donde se aplican tecnologías de la información geográfica para crear gemelos digitales y para poder estudiar los terrenos donde ocurren estos fenómenos.
+keywords:
+  - Inundaciones
+  - TIG
+  - Gemelos digitales
+ 
+bibliography: references.bib
+biblio-style: unsrt
+output: rticles::arxiv_article
+---
+
+# Introducción
+
+Las inundaciones constituyen uno de los riesgos naturales que ocurren con mayor frecuencia en el mundo. Se parte de entender que los conflictos en torno a las inundaciones son de naturaleza multicausal, pero preponderantemente responden a los efectos del cambio climático. Esto alerta sobre la necesidad de modificar la racionalidad del manejo de esta situación. Para ello es imprescindible gestionar las medidas a tomar en la contingencia, en el mediano y largo plazo, siendo necesario previamente conocer cuáles son los territorios vulnerables y sus grados de riesgo.
+
+Hablamos de inundación cuando las aguas cubren el terreno. Whittow define el proceso como la sumersión bajo el agua de una zona terrestre que normalmente no está cubierta por la misma, debido a un cambio relativamente rápido del nivel de la masa de agua en cuestión. 
+
+Aunque en inglés se emplea el término “flood” tanto para crecida como para inundación, conviene diferenciarlos con claridad. No todas las crecidas producen inundaciones y no todas las inundaciones proceden de crecidas de sistemas fluviales. Mientras las crecidas siempre tienen lugar en sistemas fluviales, aunque su mecanismo y sus efectos no afectan sólo a los cauces, las inundaciones pueden producirse por desbordamiento de un cauce, pero también por elevación del nivel del mar o del nivel freático, dificultades de drenaje, represamientos, etc. En las crecidas fluviales las inundaciones reducen la punta de caudal, ya que expanden el flujo y ralentizan el paso del agua, retardan la descarga, constituyendo por tanto una laminación natural de la crecida.
+
+# Causas de inundaciones
+
+Las principales causas de inundación son las siguientes: 
+
+ - Desbordamiento de un cauce como consecuencia de una crecida:mLa inundación constituye un proceso natural consistente en la ampliación temporal del lecho fluvial, el río ocupa su llanura de inundación o cauce mayor. Es lo que podemos denominar inundación fluvial, que será diferente según nos encontremos en un cono de deyección, en un curso alto, en un curso bajo o en una llanura de inundación próxima a la costa en la que la zona inundable adquiere forma irregular afectando a marismas o albuferas. El desbordamiento puede presentar dos tipologías: inflow (elevación progresiva del nivel de las aguas en valles y llanos de inundación de perfil transversal cóncavo) y outflow (desparramamiento desde el río hacia las cotas más bajas del área adyacente en valles de perfil transversal convexo).
+ 
+ - La elevación del nivel del mar en las costas, por situaciones de temporal, huracanes, olas de tsunami, etc: Esto produce lo que se denomina inundaciones litorales. Estas elevaciones reducen la capacidad de desagüe de los ríos en crecida, agravándose el proceso. Ledoux distingue en las costas francesas dos tipos de sobreelevaciones, una ligada a la presión hidrostática y otra a la ola de temporal.
+ 
+ - Insuficiencia o imposibilidad de drenaje del agua precipitada en determinadas superficies: Terrenos impermeables, zonas urbanas, áreas endorreicas. El agua permanece varios días hasta que se evapora o se infiltra.
+ 
+ - Elevación del nivel freático hasta producirse el encharcamiento superficial.
+ 
+ - Inundación lacustre como respuesta a una crecida del río que conecta con el lago.
+ 
+ - Inundación en el área de confluencia de dos sistemas fluviales: Un río crecido no puede recibir los caudales de sus afluentes y produce un cierre hidráulico, de manera que su propia crecida penetra en aquéllos y provoca inundaciones al remansar sus descargas. También pueden coincidir las crecidas de los dos confluentes, produciendo efectos graves y complejos.
+ 
+ - Inundación en la desembocadura de un sistema fluvial en el mar, que se denomina inundación estuarina: Se produce en situaciones sinérgicas entre la crecida fluvial y la elevación del nivel del mar.
+ 
+ - Inundación por represamiento de una corriente fluvial a causa de un proceso de vertiente o de una barrera de hielo: La ruptura de la presa provocará una crecida, como ya hemos visto. En este caso la inundación antecede a la crecida.
+ 
+# Consecuancias de Inundaciones 
+
+## Las principales consecuencias en el medio abiótico
+
+ - La activación de procesos de vertientes en la cuenca como resultado de las fuertes precipitaciones; acarcavamientos, piping, deslizamientos, etc. Se registran igualmente complejos procesos en conos de deyección (progradación), glacis y terrenos llanos como las terrazas fluviales (escorrentía en manto).
+
+ - Como consecuencia de todos estos procesos se movilizan grandes cantidades de materiales sólidos desde la cabecera de la cuenca. La carga sólida forma parte la dificultad de la circulación del caudal líquido (turbidez) e incrementa el poder erosivo de la corriente.
+ 
+ - Hay una aceleración en los cauces de los procesos de erosión, transporte y sedimentación: Predominan los procesos de erosión, tanto en las orillas como en el fondo del lecho, durante el ascenso y punta de las aguas, conforme aumenta la profundidad de la corriente, pero con el descenso, cuando su velocidad y profundidad disminuyen, se depositan los materiales (sedimentación diferencial) con un balance final muy similar a la inicial.
+
+ - Variaciones en la geometría y trazado de cauces, desde la migración lateral hasta la consecución de cortas y aperturas de nuevos cauces por desbordamiento de levees o diques naturales. Para que se produzcan estas drásticas variaciones es preciso que la crecida sea voluminosa y persistente.
+ 
+ - Se pueden producir modificaciones de trazado en confluencias y desplazamientos de las desembocaduras fluviales en el litoral.
+ 
+ - Hay efectos geológicos indirectos que se dan a posteriori y que se deben a los cambios bruscos en el nivel freático: movimientos en masa, efectos sumidero, hundimientos, etc. Las aguas que inundan la llanura de inundación terminan por infiltrarse recargando y renovando los acuíferos aluviales, o bien se evaporan con el tiempo.
+
+##  Las principales consecuencias en el medio humano 
+
+Crecidas e inundaciones constituyen fenómenos físicos y socio-económicos que afectan las actividades humanas y a su vez son modificadas por ellas, de manera que protagonizan una de las relaciones más paradigmáticas del hombre y su entorno natural.
+
+Hay que destacar la existencia de varias consecuencias de estos procesos beneficiosas para el hombre: el incremento de la fertilidad del suelo, la limpieza de cauces, la renovación de aguas estancadas, la renovación de acuíferos aprovechables o el riego con aguas de avenida en zonas deficitarias.
+
+Sin embargo, las consecuencias son, en su mayor parte, negativas, y pueden estructurarse en tres grandes bloques:
+
+ - Daños en infraestructuras: vías de comunicación, sistemas de telecomunicación, viviendas, instalaciones industriales, edificaciones agrícolas, puentes, defensas, presas, azudes, estaciones de aforo, redes de agua potable, conducciones enterradas, aterramiento de embalses, canales y acequias, etc.
+ 
+ - Repercusiones en actividades humanas: Paralización de actividad por la inundación (corte de comunicaciones y energía), pérdidas económicas directas e indirectas en el sector privado y en el público, gastos económicos en reparaciones, limpieza general y ayudas de emergencia, incremento del paro y retroceso de la prosperidad general, conflictos de propiedad, efectos psicológicos y sociológicos (percepción individual y colectiva del riesgo), epidemias y problemas de salud pública por expansión de contaminantes, corte del agua potable, falta de abastecimiento, aguas estancadas, etc.
+ 
+ - Pérdida de vidas humanas, tanto directa como indirecta.
+ 
+# LAS TECNOLOGÍAS DE LA INFORMACIÓN GEOGRÁFICA PARA EL ANÁLISIS TERRITORIAL DE ÁREAS AFECTADAS POR INUNDACIONES.
+ 
+ Si se concibe como tecnologías de la información geográfica a todos aquellos medios para obtener, procesar, almacenar, analizar y representar datos georreferenciados, no cabe duda que la Teledetección y los SIG están incluidas en esta categoría de herramientas. No obstante, el impresionante avance tecnológico en materia de sistemas de recolección, procesamiento y representación de datos georreferenciados junto con el creciente mercado de información geográfica, está impulsando la revisión del concepto de tecnologías de la información geográfica, hasta el punto que algunos autores, insinúan el nacimiento de una nueva rama científica con teorías y metodologías propias. Lo que queda claro es que la Teledetección permite la evaluación de sucesos con una precisión hasta hace pocas décadas impensable. Los satélites artificiales, los sensores remotos y el tratamiento de imágenes digitales por ordenador han revolucionado el estudio de fenómenos a escala planetaria y constituyen herramientas ya imprescindibles para la gestión de recursos naturales y el control y la planificación de la actividad humana sobre la superficie terrestre. La aplicación de la teledetección para el estudio de suelos afectados por inundación, gracias al contraste del agua con el resto de las cubiertas terrestres en el espectro electromagnético.
+ 
+ Por otro lado, los SIG, también constituyen una herramienta indiscutible a la hora de integrar, analizar y representar información georreferenciada. La combinación del procesamiento digital de imágenes provenientes de sensores remotos, con las posibilidades de análisis que ofrecen los SIG, han sido satisfactoriamente utilizadas para estudios vinculados al análisis territorial de áreas afectadas por inundaciones
+ 
+ Un ejemplo de utilización es la “delimitación de áreas” que se utilizó en la provincia de Córdoba de Argentina. Este trabajo consiste en delimitar los terrenos utilizando imágenes satelitales y trabajos de campo a diferentes niveles de detalle. Mediante el contraste de imágenes Landsat TM5, en épocas de precipitaciones, se puede observar con mayor facilidad como se organizan los escurrimientos superficiales y se puede digitalizar los limites de las unidades hidrológicas, las vías de circulación y el área de las lagunas. Esta información de las imágenes y otros datos digitales como red vial, curvas de nivel y suelos, permite crear un gemelo digital a través de programas como Erdas Imagine, ArcInfo y ArcView. Gracias a esto se puede obtener una imagen muy realista de los terrenos y permite el estudio de vías de circulación y establecer nuevas unidades hidrológicas con mayor detalle.
+ 
+ Otro uso que se le pude dar a los SIG es “delimitar unidades territoriales para el manejo de los excedentes hídricos”. Esto es necesario debido a que el escurrimiento superficial en un ambiente como las Llanuras Mal drenadas es muy lento. La principal estrategia de manejo de los excedentes hídricos se basa en los componentes verticales del balance hídrico, principalmente infiltración, evaporación y evapotranspiración. Por ello es necesario delimitar unidades territoriales que respondan de manera similar a diferentes estrategias y técnicas de gestión
+ 
+ El objetivo de este trabajo es delimitar unidades territoriales para el manejo de los excedentes hídricos, mediante la integración y análisis en un SIG de la información obtenida con imágenes Landsat y la provista por el mapa de suelos de un sector de las Llanuras Mal Drenadas. La información necesaria consiste en cartas de suelo e imágenes Landsat TM. Para el procesamiento digital de la información se utiliza los siguientes softwares: ArcInfo, ERDAS Imagine e Idrisi.
+ 
+ Para la creación de este gemelo digital se realizan las siguientes acciones:
+ 
+ -	Definición de las unidades territoriales para el manejo de excedentes hídricos: definir los tipos de unidades territoriales sobre la base de criterios agrohidrologicos, para el manejo de la infiltración, evaporación y evapotranspiración.
+ 
+ - Delimitación de Unidades a partir del Mapa de Suelos digitalizando en Arcinfo las unidades cartográficas. Con esta información se establece una relación entre clase por capacidad de uso y la unidad para el manejo de excedentes hídricos. Se obtiene un mapa final reclasificando las unidades cartográficas y transfiriendo al SIG Idrisi para su integración y análisis con los datos obtenidos desde las imágenes Landsat.
+ 
+ - 	Delimitación de Unidades a partir del tratamiento digital de Imágenes Landsat TM 5: para el tratamiento digital con ERDAS Imagine se seleccionan dos imágenes, una correspondiente a un período de lluvias normales para la zona y la otra coincidente con uno de los períodos de máximas lluvias registradas en el área. Se corta, para cada una, la ventana correspondiente al área de estudio y se georreferencian al sistema Gauss Krüger con un error medio cuadrático de la transformación menor a un pixel para ambas imágenes. 
+
+Mediante un análisis visual de las imágenes generadas, se digitalizan en pantalla los espejos de agua claramente discernibles, asignando a estas unidades la categoría de Lagunas permanentes. Con esta información se genera un mapa binario que se debe transferir a Idrisi.
+
+Con las imágenes ya generadas en el software se deben definir los campos para la clasificación supervisada. Con la ayuda del mapa digital de suelos (superpuesto a la imagen), las características espectrales de la imagen y el conocimiento del terreno, se pueden establecer 4 categorías espectrales; sectores con agua, sectores anegados, sectores encharcados y sectores normales.
+
+# Conclusiones
+
+El fenómeno de las inundaciones es un gran problema que en la mayoría de los casos no se puede evitar y que posee una complejidad de causas naturales y antrópicas, cuyos efectos sobre el territorio son de difícil análisis por la amplitud de la zona, la carencia de información y la magnitud de los problemas. Por lo tanto, este trabajo lo que se propone es la realización de gemelos digitales a través de las tecnologías de la información geográfica que facilitan la recolección, sistematización y análisis de información georreferenciada, para entender la expresión territorial del fenómeno y poder realizar estudios exhaustivos que conlleva a nuevas tomas de decisiones y poder disminuir las causas y también las consecuencias de las inundaciones.
+
+
+# Bibliografía
+
+ - CRECIDAS E INUNDACIONES COMO RIESGO HIDROLÓGICO UN PLANTEAMIENTO DIDÁCTICO
+
+Alfredo OLLERO OJEDA
+
+Universidad del País Vasco,
+
+Facultad de Filología y Geografía e Historia
+
+Departamento de Geografía, Prehistoria y Arqueología
+
+
+
+ - Inundaciones urbanas. Mapas de riesgo y lineamientos de ordenamiento territorial en la region del gran La Plata. Aspectos teóricos-metodológicos y propositivos
+ 
+ Juan Carlos Etulain
+ 
+ Centro de Investigaciones Urbanas y Territoriales (CIUT). 
+ 
+ Facultad de Arquitectura y Urbanismo. Universidad Nacional de La Plata, ArgentinaCONICET – Consejo Nacional de Investigaciones Científicas y 
+ 
+ - LAS INUNDACIONES EN LA PROVINCIA DE CÓRDOBA (ARGENTINA) Y LAS TECNOLOGÍAS DE INFORMACIÓN GEOGRÁFICA: EJEMPLOS DE APLICACIÓN
+ 
+ Américo Degioanni Sasia, José Manuel Cisneros y Alberto Cantero Gutiérrez
+ 
+Facultad de Agronomía y Veterinaria
+
+Universidad Nacional de Río Cuarto
+
+
+ 
+ 
+
+
