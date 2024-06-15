@@ -87,7 +87,7 @@ Sin embargo, las consecuencias son, en su mayor parte, negativas, y pueden estru
  
  - Pérdida de vidas humanas, tanto directa como indirecta.
  
-# LAS TECNOLOGÍAS DE LA INFORMACIÓN GEOGRÁFICA PARA EL ANÁLISIS TERRITORIAL DE ÁREAS AFECTADAS POR INUNDACIONES.
+# Las tecnologias de la información geográfica para el análisis territorial de áreas afectadas por inundaciones.
  
  Si se concibe como tecnologías de la información geográfica a todos aquellos medios para obtener, procesar, almacenar, analizar y representar datos georreferenciados, no cabe duda que la Teledetección y los SIG están incluidas en esta categoría de herramientas. No obstante, el impresionante avance tecnológico en materia de sistemas de recolección, procesamiento y representación de datos georreferenciados junto con el creciente mercado de información geográfica, está impulsando la revisión del concepto de tecnologías de la información geográfica, hasta el punto que algunos autores, insinúan el nacimiento de una nueva rama científica con teorías y metodologías propias. Lo que queda claro es que la Teledetección permite la evaluación de sucesos con una precisión hasta hace pocas décadas impensable. Los satélites artificiales, los sensores remotos y el tratamiento de imágenes digitales por ordenador han revolucionado el estudio de fenómenos a escala planetaria y constituyen herramientas ya imprescindibles para la gestión de recursos naturales y el control y la planificación de la actividad humana sobre la superficie terrestre. La aplicación de la teledetección para el estudio de suelos afectados por inundación, gracias al contraste del agua con el resto de las cubiertas terrestres en el espectro electromagnético.
  
